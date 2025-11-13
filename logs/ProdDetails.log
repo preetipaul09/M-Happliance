@@ -1,0 +1,400 @@
+2025-11-12 16:59:51,658:__main__:Found 6694 URLs to process
+2025-11-12 16:59:51,658:__main__:Processing URL: https://www.applianceandelectronics.com/product/whirlpool-36-wall-mount-flat-range-hood-stainless-steel-wvw57uc6fs-86881
+2025-11-12 17:00:11,896:__main__:https://www.applianceandelectronics.com/product/whirlpool-36-wall-mount-flat-range-hood-stainless-steel-wvw57uc6fs-86881
+2025-11-12 17:00:37,301:__main__:MPN matched for https://www.applianceandelectronics.com/product/whirlpool-36-wall-mount-flat-range-hood-stainless-steel-wvw57uc6fs-86881: given_product_mpn:WVW57UC6FS, scraped_product_mpn:WVW57UC6FS
+2025-11-12 17:00:39,911:__main__:Same vendor price already exists for vendor_product_id 3100769
+2025-11-12 17:00:40,383:__main__:Record Updated for vendor_product_id (3100769) and source (direct_from_website)
+2025-11-12 17:01:05,928:__main__:Record Updated for product_id (20748).
+2025-11-12 17:01:08,760:__main__:Record Updated for vendor_product_id (3100769).
+2025-11-12 17:01:09,660:__main__:Processing URL: https://www.applianceandelectronics.com/product/whirlpool-38-cu-ft-white-top-load-washer-wtw4855hw-142905
+2025-11-12 17:01:27,010:__main__:https://www.applianceandelectronics.com/product/whirlpool-38-cu-ft-white-top-load-washer-wtw4855hw-142905
+2025-11-12 17:01:56,805:__main__:MPN matched for https://www.applianceandelectronics.com/product/whirlpool-38-cu-ft-white-top-load-washer-wtw4855hw-142905: given_product_mpn:WTW4855HW, scraped_product_mpn:WTW4855HW
+2025-11-12 17:01:59,439:__main__:Same vendor price already exists for vendor_product_id 3100895
+2025-11-12 17:01:59,914:__main__:Record Updated for vendor_product_id (3100895) and source (direct_from_website)
+2025-11-12 17:02:25,402:__main__:Record Updated for product_id (21234).
+2025-11-12 17:02:28,228:__main__:Record Updated for vendor_product_id (3100895).
+2025-11-12 17:02:28,738:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-series-7-2-burner-stainless-steel-built-in-natural-gas-grill-bgc30-bq-n-44812
+2025-11-12 17:02:35,341:__main__:https://www.applianceandelectronics.com/product/dcs-series-7-2-burner-stainless-steel-built-in-natural-gas-grill-bgc30-bq-n-44812
+2025-11-12 17:03:02,627:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-series-7-2-burner-stainless-steel-built-in-natural-gas-grill-bgc30-bq-n-44812: given_product_mpn:BGC30-BQ-N, scraped_product_mpn:None
+2025-11-12 17:03:03,067:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-2638-brushed-stainless-steel-outdoor-beverage-chiller-and-sink-bc25-40740
+2025-11-12 17:03:10,131:__main__:https://www.applianceandelectronics.com/product/dcs-2638-brushed-stainless-steel-outdoor-beverage-chiller-and-sink-bc25-40740
+2025-11-12 17:03:32,471:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-2638-brushed-stainless-steel-outdoor-beverage-chiller-and-sink-bc25-40740: given_product_mpn:BC25, scraped_product_mpn:None
+2025-11-12 17:03:32,879:__main__:Processing URL: https://www.applianceandelectronics.com/product/kitchenaid-36-pro-style-gas-range-kfgc506j-388162
+2025-11-12 17:03:43,331:__main__:https://www.applianceandelectronics.com/product/kitchenaid-36-pro-style-gas-range-kfgc506j-388162
+2025-11-12 17:04:10,780:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/kitchenaid-36-pro-style-gas-range-kfgc506j-388162: given_product_mpn:KFGC506JSS, scraped_product_mpn:None
+2025-11-12 17:04:11,246:__main__:Processing URL: https://www.applianceandelectronics.com/product/whirlpool-commercial-33-cu-ft-white-agitator-top-load-washer-cae2745fq-113940
+2025-11-12 17:04:22,006:__main__:https://www.applianceandelectronics.com/product/whirlpool-commercial-33-cu-ft-white-agitator-top-load-washer-cae2745fq-113940
+2025-11-12 17:04:45,953:__main__:MPN matched for https://www.applianceandelectronics.com/product/whirlpool-commercial-33-cu-ft-white-agitator-top-load-washer-cae2745fq-113940: given_product_mpn:CAE2745FQ, scraped_product_mpn:CAE2745FQ
+2025-11-12 17:04:48,900:__main__:Same vendor price already exists for vendor_product_id 3104656
+2025-11-12 17:04:49,389:__main__:Record Updated for vendor_product_id (3104656) and source (direct_from_website)
+2025-11-12 17:05:13,584:__main__:Processing URL: https://www.applianceandelectronics.com/product/whirlpool-stainless-steel-sidekick-trim-kit-skt60m-79160
+2025-11-12 17:05:21,604:__main__:https://www.applianceandelectronics.com/product/whirlpool-stainless-steel-sidekick-trim-kit-skt60m-79160
+2025-11-12 17:05:44,278:__main__:MPN matched for https://www.applianceandelectronics.com/product/whirlpool-stainless-steel-sidekick-trim-kit-skt60m-79160: given_product_mpn:SKT60M, scraped_product_mpn:SKT60M
+2025-11-12 17:05:47,377:__main__:is_price_changed set 1 for vendor_product_id (3105114).
+2025-11-12 17:05:47,849:__main__:Record Updated for vendor_product_id (3105114) and source (direct_from_website)
+2025-11-12 17:06:10,611:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-series-7-30-stainless-steel-cad-grill-cart-cad1-30e-708775
+2025-11-12 17:06:17,511:__main__:https://www.applianceandelectronics.com/product/dcs-series-7-30-stainless-steel-cad-grill-cart-cad1-30e-708775
+2025-11-12 17:06:39,332:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-series-7-30-stainless-steel-cad-grill-cart-cad1-30e-708775: given_product_mpn:CAD1-30E, scraped_product_mpn:None
+2025-11-12 17:06:39,517:__main__:Processing URL: https://www.applianceandelectronics.com/product/whirlpool-54-cu-ft-chrome-shadow-top-load-washer-wtw8127lc-814063
+2025-11-12 17:07:08,650:__main__:https://www.applianceandelectronics.com/product/whirlpool-54-cu-ft-chrome-shadow-top-load-washer-wtw8127lc-814063
+2025-11-12 17:07:31,176:__main__:MPN matched for https://www.applianceandelectronics.com/product/whirlpool-54-cu-ft-chrome-shadow-top-load-washer-wtw8127lc-814063: given_product_mpn:WTW8127LC, scraped_product_mpn:WTW8127LC
+2025-11-12 17:07:33,844:__main__:Record Inserted for vendor_product_id (3110980) and source (direct_from_website)
+2025-11-12 17:08:00,125:__main__:Record Updated for product_id (21798).
+2025-11-12 17:08:02,967:__main__:Record Updated for vendor_product_id (3110980).
+2025-11-12 17:08:03,465:__main__:Processing URL: https://www.applianceandelectronics.com/product/electrolux-45-cu-ft-titanium-front-load-washer-elfw7637at-894482
+2025-11-12 17:08:33,880:__main__:https://www.applianceandelectronics.com/product/electrolux-45-cu-ft-titanium-front-load-washer-elfw7637at-894482
+2025-11-12 17:09:04,561:__main__:MPN matched for https://www.applianceandelectronics.com/product/electrolux-45-cu-ft-titanium-front-load-washer-elfw7637at-894482: given_product_mpn:ELFW7637AT, scraped_product_mpn:ELFW7637AT
+2025-11-12 17:09:07,302:__main__:Record Inserted for vendor_product_id (3111025) and source (direct_from_website)
+2025-11-12 17:09:30,025:__main__:Processing URL: https://www.applianceandelectronics.com/product/whirlpool-11-cu-ft-stainless-steel-frame-built-in-microwave-wmt55511ks-477563
+2025-11-12 17:09:38,185:__main__:https://www.applianceandelectronics.com/product/whirlpool-11-cu-ft-stainless-steel-frame-built-in-microwave-wmt55511ks-477563
+2025-11-12 17:10:08,396:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-series-9-14-stainless-steel-natural-gas-double-side-burner-sbe1-142-n-379560
+2025-11-12 17:10:15,550:__main__:https://www.applianceandelectronics.com/product/dcs-series-9-14-stainless-steel-natural-gas-double-side-burner-sbe1-142-n-379560
+2025-11-12 17:10:45,045:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-series-9-14-stainless-steel-natural-gas-double-side-burner-sbe1-142-n-379560: given_product_mpn:SBE1-142-N, scraped_product_mpn:None
+2025-11-12 17:10:45,236:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-series-9-48-stainless-steel-built-in-grill-be1-48rci-1264341
+2025-11-12 17:10:51,807:__main__:https://www.applianceandelectronics.com/product/dcs-series-9-48-stainless-steel-built-in-grill-be1-48rci-1264341
+2025-11-12 17:11:12,120:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-series-9-48-stainless-steel-built-in-grill-be1-48rci-1264341: given_product_mpn:BE1-48RCI-N, scraped_product_mpn:None
+2025-11-12 17:11:12,322:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-series-7-48-stainless-steel-built-in-grill-bh1-48ri-1264862
+2025-11-12 17:11:18,838:__main__:https://www.applianceandelectronics.com/product/dcs-series-7-48-stainless-steel-built-in-grill-bh1-48ri-1264862
+2025-11-12 17:11:42,643:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-series-7-48-stainless-steel-built-in-grill-bh1-48ri-1264862: given_product_mpn:BH1-48RI-N, scraped_product_mpn:None
+2025-11-12 17:11:42,855:__main__:Processing URL: https://www.applianceandelectronics.com/product/whirlpool-28-in-143-cu-ft-white-top-freezer-refrigerator-wrt314tfd-151841
+2025-11-12 17:11:54,360:__main__:https://www.applianceandelectronics.com/product/whirlpool-28-in-143-cu-ft-white-top-freezer-refrigerator-wrt314tfd-151841
+2025-11-12 17:12:21,250:__main__:Processing URL: https://www.applianceandelectronics.com/product/electrolux-24-cu-ft-compact-stackable-white-front-load-washer-elfw4222aw-427496
+2025-11-12 17:12:30,947:__main__:https://www.applianceandelectronics.com/product/electrolux-24-cu-ft-compact-stackable-white-front-load-washer-elfw4222aw-427496
+2025-11-12 17:13:00,188:__main__:Processing URL: https://www.applianceandelectronics.com/product/kitchenaid-30-scorched-orange-commercial-style-freestanding-dual-fuel-range-kfdc500jsc-384276
+2025-11-12 17:13:09,112:__main__:https://www.applianceandelectronics.com/product/kitchenaid-30-scorched-orange-commercial-style-freestanding-dual-fuel-range-kfdc500jsc-384276
+2025-11-12 17:13:35,672:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/kitchenaid-30-scorched-orange-commercial-style-freestanding-dual-fuel-range-kfdc500jsc-384276: given_product_mpn:KFDC500JPA, scraped_product_mpn:None
+2025-11-12 17:13:36,626:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-24-brushed-stainless-steel-bulit-in-access-doors-adn1-20x24-78070
+2025-11-12 17:13:43,281:__main__:https://www.applianceandelectronics.com/product/dcs-24-brushed-stainless-steel-bulit-in-access-doors-adn1-20x24-78070
+2025-11-12 17:14:10,392:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-24-brushed-stainless-steel-bulit-in-access-doors-adn1-20x24-78070: given_product_mpn:ADN1-20X24, scraped_product_mpn:None
+2025-11-12 17:14:10,581:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-24-stainless-steel-insulated-grill-jacket-bga24-ijs-1352165
+2025-11-12 17:14:18,969:__main__:https://www.applianceandelectronics.com/product/dcs-24-stainless-steel-insulated-grill-jacket-bga24-ijs-1352165
+2025-11-12 17:14:47,031:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-24-stainless-steel-insulated-grill-jacket-bga24-ijs-1352165: given_product_mpn:BGA24-IJS, scraped_product_mpn:None
+2025-11-12 17:14:47,248:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-3594-brushed-stainless-steel-bulit-in-access-doors-adn1-20x36-78076
+2025-11-12 17:14:54,517:__main__:https://www.applianceandelectronics.com/product/dcs-3594-brushed-stainless-steel-bulit-in-access-doors-adn1-20x36-78076
+2025-11-12 17:15:19,278:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-3594-brushed-stainless-steel-bulit-in-access-doors-adn1-20x36-78076: given_product_mpn:ADN1-20X36, scraped_product_mpn:None
+2025-11-12 17:15:19,479:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-30-insulation-jacket-bgb30-ijs-32306
+2025-11-12 17:15:26,400:__main__:https://www.applianceandelectronics.com/product/dcs-30-insulation-jacket-bgb30-ijs-32306
+2025-11-12 17:15:52,569:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-30-insulation-jacket-bgb30-ijs-32306: given_product_mpn:BGB30-IJS, scraped_product_mpn:None
+2025-11-12 17:15:52,776:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-4794-brushed-stainless-steel-bulit-in-access-doors-adn1-20x48-78077
+2025-11-12 17:15:59,613:__main__:https://www.applianceandelectronics.com/product/dcs-4794-brushed-stainless-steel-bulit-in-access-doors-adn1-20x48-78077
+2025-11-12 17:16:20,518:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-4794-brushed-stainless-steel-bulit-in-access-doors-adn1-20x48-78077: given_product_mpn:ADN1-20X48, scraped_product_mpn:None
+2025-11-12 17:16:20,826:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-2031-brushed-stainless-steel-tower-drawer-single-tds1-20-78082
+2025-11-12 17:16:27,929:__main__:https://www.applianceandelectronics.com/product/dcs-2031-brushed-stainless-steel-tower-drawer-single-tds1-20-78082
+2025-11-12 17:16:57,741:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-2031-brushed-stainless-steel-tower-drawer-single-tds1-20-78082: given_product_mpn:TDS1-20, scraped_product_mpn:None
+2025-11-12 17:16:57,943:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-36-insulation-jacket-bga36-ijs-32305
+2025-11-12 17:17:05,396:__main__:https://www.applianceandelectronics.com/product/dcs-36-insulation-jacket-bga36-ijs-32305
+2025-11-12 17:17:34,282:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-36-insulation-jacket-bga36-ijs-32305: given_product_mpn:BGA36-IJS, scraped_product_mpn:None
+2025-11-12 17:17:34,505:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-48-stainless-steel-insulated-grill-jacket-bga42-ijs-917041
+2025-11-12 17:17:40,770:__main__:https://www.applianceandelectronics.com/product/dcs-48-stainless-steel-insulated-grill-jacket-bga42-ijs-917041
+2025-11-12 17:18:05,079:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-48-stainless-steel-insulated-grill-jacket-bga42-ijs-917041: given_product_mpn:BGA42-IJS, scraped_product_mpn:None
+2025-11-12 17:18:05,272:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-48-insulation-jacket-bga48-ijs-32304
+2025-11-12 17:18:12,101:__main__:https://www.applianceandelectronics.com/product/dcs-48-insulation-jacket-bga48-ijs-32304
+2025-11-12 17:18:41,699:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-48-insulation-jacket-bga48-ijs-32304: given_product_mpn:BGA48-IJS, scraped_product_mpn:None
+2025-11-12 17:18:42,161:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-24-brushed-stainless-steel-bulit-in-access-drawers-adr2-24-78067
+2025-11-12 17:18:49,336:__main__:https://www.applianceandelectronics.com/product/dcs-24-brushed-stainless-steel-bulit-in-access-drawers-adr2-24-78067
+2025-11-12 17:19:09,825:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-24-brushed-stainless-steel-bulit-in-access-drawers-adr2-24-78067: given_product_mpn:ADR2-24, scraped_product_mpn:None
+2025-11-12 17:19:10,420:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-54-stainless-steel-insulated-jacket-bga54-ijs-1352154
+2025-11-12 17:19:18,085:__main__:https://www.applianceandelectronics.com/product/dcs-54-stainless-steel-insulated-jacket-bga54-ijs-1352154
+2025-11-12 17:19:39,122:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-54-stainless-steel-insulated-jacket-bga54-ijs-1352154: given_product_mpn:BGA54-IJS, scraped_product_mpn:None
+2025-11-12 17:19:39,309:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-2031-brushed-stainless-steel-tower-drawer-double-tdd1-20-78083
+2025-11-12 17:19:46,145:__main__:https://www.applianceandelectronics.com/product/dcs-2031-brushed-stainless-steel-tower-drawer-double-tdd1-20-78083
+2025-11-12 17:20:06,628:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-2031-brushed-stainless-steel-tower-drawer-double-tdd1-20-78083: given_product_mpn:TDD1-20, scraped_product_mpn:None
+2025-11-12 17:20:06,815:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-30-brushed-stainless-steel-bulit-in-access-drawers-adr2-30-78065
+2025-11-12 17:20:14,513:__main__:https://www.applianceandelectronics.com/product/dcs-30-brushed-stainless-steel-bulit-in-access-drawers-adr2-30-78065
+2025-11-12 17:20:44,400:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-30-brushed-stainless-steel-bulit-in-access-drawers-adr2-30-78065: given_product_mpn:ADR2-30, scraped_product_mpn:None
+2025-11-12 17:20:44,680:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-series-7-3-burner-stainless-steel-built-in-liquid-propane-gas-grill-bh1-36r-l-82871
+2025-11-12 17:20:51,387:__main__:https://www.applianceandelectronics.com/product/dcs-series-7-3-burner-stainless-steel-built-in-liquid-propane-gas-grill-bh1-36r-l-82871
+2025-11-12 17:21:17,417:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-series-7-3-burner-stainless-steel-built-in-liquid-propane-gas-grill-bh1-36r-l-82871: given_product_mpn:BH1-36R-L, scraped_product_mpn:None
+2025-11-12 17:21:18,050:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-2031-brushed-stainless-steel-tower-drawer-triple-tdt1-20-78086
+2025-11-12 17:21:25,208:__main__:https://www.applianceandelectronics.com/product/dcs-2031-brushed-stainless-steel-tower-drawer-triple-tdt1-20-78086
+2025-11-12 17:21:53,857:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-2031-brushed-stainless-steel-tower-drawer-triple-tdt1-20-78086: given_product_mpn:TDT1-20, scraped_product_mpn:None
+2025-11-12 17:21:54,378:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-3594-brushed-stainless-steel-bulit-in-access-drawers-adr2-36-78061
+2025-11-12 17:22:00,581:__main__:https://www.applianceandelectronics.com/product/dcs-3594-brushed-stainless-steel-bulit-in-access-drawers-adr2-36-78061
+2025-11-12 17:22:27,035:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-3594-brushed-stainless-steel-bulit-in-access-drawers-adr2-36-78061: given_product_mpn:ADR2-36, scraped_product_mpn:None
+2025-11-12 17:22:27,526:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-30-brushed-stainless-steel-outdoor-warming-drawer-wd1-30-ssod-192052
+2025-11-12 17:22:34,030:__main__:https://www.applianceandelectronics.com/product/dcs-30-brushed-stainless-steel-outdoor-warming-drawer-wd1-30-ssod-192052
+2025-11-12 17:23:03,453:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-30-brushed-stainless-steel-outdoor-warming-drawer-wd1-30-ssod-192052: given_product_mpn:WD1-30-SSOD, scraped_product_mpn:None
+2025-11-12 17:23:03,972:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-series-9-30-stainless-steel-natural-gas-griddle-and-side-burner-gdsbe1-302-n-379554
+2025-11-12 17:23:10,728:__main__:https://www.applianceandelectronics.com/product/dcs-series-9-30-stainless-steel-natural-gas-griddle-and-side-burner-gdsbe1-302-n-379554
+2025-11-12 17:23:39,306:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-series-9-30-stainless-steel-natural-gas-griddle-and-side-burner-gdsbe1-302-n-379554: given_product_mpn:GDSBE1-302-N, scraped_product_mpn:None
+2025-11-12 17:23:39,798:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-42-brushed-stainless-steel-dry-pantry-dp1-42-78093
+2025-11-12 17:23:46,808:__main__:https://www.applianceandelectronics.com/product/dcs-42-brushed-stainless-steel-dry-pantry-dp1-42-78093
+2025-11-12 17:24:15,008:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-42-brushed-stainless-steel-dry-pantry-dp1-42-78093: given_product_mpn:DP1-42, scraped_product_mpn:None
+2025-11-12 17:24:15,487:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-series-9-30-stainless-steel-liquid-propane-griddle-gde1-30-l-379206
+2025-11-12 17:24:21,745:__main__:https://www.applianceandelectronics.com/product/dcs-series-9-30-stainless-steel-liquid-propane-griddle-gde1-30-l-379206
+2025-11-12 17:24:46,966:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-series-9-30-stainless-steel-liquid-propane-griddle-gde1-30-l-379206: given_product_mpn:GDE1-30-L, scraped_product_mpn:None
+2025-11-12 17:24:47,447:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-stainless-steel-griddle-plate-bgc-gp-192061
+2025-11-12 17:24:53,815:__main__:https://www.applianceandelectronics.com/product/dcs-stainless-steel-griddle-plate-bgc-gp-192061
+2025-11-12 17:25:14,876:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-stainless-steel-griddle-plate-bgc-gp-192061: given_product_mpn:BGC-GP, scraped_product_mpn:None
+2025-11-12 17:25:15,553:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-brushed-stainless-steel-back-bar-cad30-bb-192241
+2025-11-12 17:25:22,445:__main__:https://www.applianceandelectronics.com/product/dcs-brushed-stainless-steel-back-bar-cad30-bb-192241
+2025-11-12 17:25:49,687:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-brushed-stainless-steel-back-bar-cad30-bb-192241: given_product_mpn:CAD30-BB, scraped_product_mpn:None
+2025-11-12 17:25:50,177:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-series-7-36-stainless-steel-built-in-grill-bh1-36ri-1264898
+2025-11-12 17:25:56,494:__main__:https://www.applianceandelectronics.com/product/dcs-series-7-36-stainless-steel-built-in-grill-bh1-36ri-1264898
+2025-11-12 17:26:23,323:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-series-7-36-stainless-steel-built-in-grill-bh1-36ri-1264898: given_product_mpn:BH1-36RI-N, scraped_product_mpn:None
+2025-11-12 17:26:23,812:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-53-cu-ft-stainless-steel-right-hinge-outdoor-refrigerator-rf24re4-708712
+2025-11-12 17:26:30,135:__main__:https://www.applianceandelectronics.com/product/dcs-53-cu-ft-stainless-steel-right-hinge-outdoor-refrigerator-rf24re4-708712
+2025-11-12 17:26:51,022:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-53-cu-ft-stainless-steel-right-hinge-outdoor-refrigerator-rf24re4-708712: given_product_mpn:RF24RE4, scraped_product_mpn:None
+2025-11-12 17:26:51,531:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-series-9-24-stainless-steel-liquid-propane-power-burner-pbe1-24-l-379541
+2025-11-12 17:26:57,678:__main__:https://www.applianceandelectronics.com/product/dcs-series-9-24-stainless-steel-liquid-propane-power-burner-pbe1-24-l-379541
+2025-11-12 17:27:23,553:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-series-9-24-stainless-steel-liquid-propane-power-burner-pbe1-24-l-379541: given_product_mpn:PBE1-24-L, scraped_product_mpn:None
+2025-11-12 17:27:24,082:__main__:Processing URL: https://www.applianceandelectronics.com/product/dcs-24-stainless-steel-left-hinge-outdoor-beer-dispenser-rf24btl2-708735
+2025-11-12 17:27:30,754:__main__:https://www.applianceandelectronics.com/product/dcs-24-stainless-steel-left-hinge-outdoor-beer-dispenser-rf24btl2-708735
+2025-11-12 17:27:53,811:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/dcs-24-stainless-steel-left-hinge-outdoor-beer-dispenser-rf24btl2-708735: given_product_mpn:RF24BTL2, scraped_product_mpn:None
+2025-11-12 17:27:54,295:__main__:Processing URL: https://www.applianceandelectronics.com/product/lg-m3-series-4k-ultra-hd-oled-smart-tv-oledm3pua-1354379
+2025-11-12 17:28:05,200:__main__:https://www.applianceandelectronics.com/product/lg-m3-series-4k-ultra-hd-oled-smart-tv-oledm3pua-1354379
+2025-11-12 17:28:30,796:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/lg-m3-series-4k-ultra-hd-oled-smart-tv-oledm3pua-1354379: given_product_mpn:OLED77M3PUA, scraped_product_mpn:None
+2025-11-12 17:28:31,382:__main__:Processing URL: https://www.applianceandelectronics.com/product/whirlpool-1-3-hp-in-sink-food-waste-disposer-black-gc1000xe-2919
+2025-11-12 17:28:39,821:__main__:https://www.applianceandelectronics.com/product/whirlpool-1-3-hp-in-sink-food-waste-disposer-black-gc1000xe-2919
+2025-11-12 17:29:06,474:__main__:Processing URL: https://www.applianceandelectronics.com/product/samsung-19-cu-ft-countertop-microwave-ms19dg8500-1631244
+2025-11-12 17:29:13,759:__main__:https://www.applianceandelectronics.com/product/samsung-19-cu-ft-countertop-microwave-ms19dg8500-1631244
+2025-11-12 17:29:36,994:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-24-stainless-steel-wine-cooler-swc530blbistada-232740
+2025-11-12 17:29:44,647:__main__:https://www.applianceandelectronics.com/product/summit-24-stainless-steel-wine-cooler-swc530blbistada-232740
+2025-11-12 17:30:14,189:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-24-stainless-steel-wine-cooler-swc530blbistcssada-232958
+2025-11-12 17:30:22,191:__main__:https://www.applianceandelectronics.com/product/summit-24-stainless-steel-wine-cooler-swc530blbistcssada-232958
+2025-11-12 17:30:44,118:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-46-cu-ft-stainless-steel-wine-cooler-alfd24wbv-294275
+2025-11-12 17:30:51,755:__main__:https://www.applianceandelectronics.com/product/summit-46-cu-ft-stainless-steel-wine-cooler-alfd24wbv-294275
+2025-11-12 17:31:12,814:__main__:Processing URL: https://www.applianceandelectronics.com/product/caf-gas-cooktop-knob-kit-cxcg1k0pm-199999
+2025-11-12 17:31:18,985:__main__:https://www.applianceandelectronics.com/product/caf-gas-cooktop-knob-kit-cxcg1k0pm-199999
+2025-11-12 17:31:46,340:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/caf-gas-cooktop-knob-kit-cxcg1k0pm-199999: given_product_mpn:CXCG1K0PMSS, scraped_product_mpn:None
+2025-11-12 17:31:46,831:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-24-stainless-steel-wine-cooler-487706
+2025-11-12 17:31:54,327:__main__:https://www.applianceandelectronics.com/product/summit-24-stainless-steel-wine-cooler-487706
+2025-11-12 17:32:21,959:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-33-cu-ft-stainless-steel-wine-cooler-swc182zcssada-298091
+2025-11-12 17:32:30,479:__main__:https://www.applianceandelectronics.com/product/summit-33-cu-ft-stainless-steel-wine-cooler-swc182zcssada-298091
+2025-11-12 17:32:58,418:__main__:MPN matched for https://www.applianceandelectronics.com/product/summit-33-cu-ft-stainless-steel-wine-cooler-swc182zcssada-298091: given_product_mpn:SWC182ZCSSADA, scraped_product_mpn:SWC182ZCSSADA
+2025-11-12 17:33:01,205:__main__:Same vendor price already exists for vendor_product_id 3512851
+2025-11-12 17:33:01,708:__main__:Record Updated for vendor_product_id (3512851) and source (direct_from_website)
+2025-11-12 17:33:25,582:__main__:Processing URL: https://www.applianceandelectronics.com/product/ge-dishwasher-third-rack-accessory-kit-gpf3rack-304988
+2025-11-12 17:33:32,101:__main__:https://www.applianceandelectronics.com/product/ge-dishwasher-third-rack-accessory-kit-gpf3rack-304988
+2025-11-12 17:33:55,889:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/ge-dishwasher-third-rack-accessory-kit-gpf3rack-304988: given_product_mpn:GPF3RACK, scraped_product_mpn:None
+2025-11-12 17:33:56,102:__main__:Processing URL: https://www.applianceandelectronics.com/product/maytag-microwave-hood-grease-replacement-filter-8206229a-22948
+2025-11-12 17:34:05,315:__main__:https://www.applianceandelectronics.com/product/maytag-microwave-hood-grease-replacement-filter-8206229a-22948
+2025-11-12 17:34:27,495:__main__:MPN matched for https://www.applianceandelectronics.com/product/maytag-microwave-hood-grease-replacement-filter-8206229a-22948: given_product_mpn:8206229A, scraped_product_mpn:8206229A
+2025-11-12 17:34:30,110:__main__:Record Inserted for vendor_product_id (3516260) and source (direct_from_website)
+2025-11-12 17:34:55,303:__main__:Record Updated for product_id (21002).
+2025-11-12 17:34:58,156:__main__:Record Updated for vendor_product_id (3516260).
+2025-11-12 17:34:58,656:__main__:Processing URL: https://www.applianceandelectronics.com/product/electrolux-45-cu-ft-white-front-load-washer-elfw7537a-772264
+2025-11-12 17:35:32,743:__main__:https://www.applianceandelectronics.com/product/electrolux-45-cu-ft-white-front-load-washer-elfw7537a-772264
+2025-11-12 17:35:55,251:__main__:MPN matched for https://www.applianceandelectronics.com/product/electrolux-45-cu-ft-white-front-load-washer-elfw7537a-772264: given_product_mpn:ELFW7537AW, scraped_product_mpn:ELFW7537AW
+2025-11-12 17:35:58,366:__main__:is_price_changed set 1 for vendor_product_id (3518372).
+2025-11-12 17:35:58,838:__main__:Record Updated for vendor_product_id (3518372) and source (direct_from_website)
+2025-11-12 17:36:24,373:__main__:Record Updated for product_id (21235).
+2025-11-12 17:36:27,239:__main__:Record Updated for vendor_product_id (3518372).
+2025-11-12 17:36:27,789:__main__:Processing URL: https://www.applianceandelectronics.com/product/kitchenaid-30-stainless-steel-freestanding-electric-double-oven-range-kfed500e-150525
+2025-11-12 17:36:41,793:__main__:https://www.applianceandelectronics.com/product/kitchenaid-30-stainless-steel-freestanding-electric-double-oven-range-kfed500e-150525
+2025-11-12 17:37:03,390:__main__:MPN matched for https://www.applianceandelectronics.com/product/kitchenaid-30-stainless-steel-freestanding-electric-double-oven-range-kfed500e-150525: given_product_mpn:KFED500ESS, scraped_product_mpn:KFED500ESS
+2025-11-12 17:37:06,565:__main__:is_price_changed set 1 for vendor_product_id (3519093).
+2025-11-12 17:37:07,041:__main__:Record Updated for vendor_product_id (3519093) and source (direct_from_website)
+2025-11-12 17:37:29,933:__main__:Processing URL: https://www.applianceandelectronics.com/product/whirlpool-5-epdm-washer-hose-black-8212641rp-22806
+2025-11-12 17:37:52,064:__main__:https://www.applianceandelectronics.com/product/whirlpool-5-epdm-washer-hose-black-8212641rp-22806
+2025-11-12 17:38:16,933:__main__:MPN matched for https://www.applianceandelectronics.com/product/whirlpool-5-epdm-washer-hose-black-8212641rp-22806: given_product_mpn:8212641RP, scraped_product_mpn:8212641RP
+2025-11-12 17:38:20,212:__main__:is_price_changed set 1 for vendor_product_id (3519564).
+2025-11-12 17:38:20,705:__main__:Record Updated for vendor_product_id (3519564) and source (direct_from_website)
+2025-11-12 17:38:41,436:__main__:Record Updated for product_id (21491).
+2025-11-12 17:38:44,294:__main__:Record Updated for vendor_product_id (3519564).
+2025-11-12 17:38:44,784:__main__:Processing URL: https://www.applianceandelectronics.com/product/whirlpool-27-pedestal-wfp2715h-342062
+2025-11-12 17:39:07,238:__main__:https://www.applianceandelectronics.com/product/whirlpool-27-pedestal-wfp2715h-342062
+2025-11-12 17:39:29,562:__main__:MPN matched for https://www.applianceandelectronics.com/product/whirlpool-27-pedestal-wfp2715h-342062: given_product_mpn:WFP2715HW, scraped_product_mpn:WFP2715HW
+2025-11-12 17:39:32,312:__main__:Same vendor price already exists for vendor_product_id 3519691
+2025-11-12 17:39:32,811:__main__:Record Updated for vendor_product_id (3519691) and source (direct_from_website)
+2025-11-12 17:39:58,409:__main__:Record Updated for product_id (21574).
+2025-11-12 17:40:01,287:__main__:Record Updated for vendor_product_id (3519691).
+2025-11-12 17:40:01,792:__main__:Processing URL: https://www.applianceandelectronics.com/product/maytag-washer-dryer-stacking-kit-w10869845-510625
+2025-11-12 17:40:27,529:__main__:https://www.applianceandelectronics.com/product/maytag-washer-dryer-stacking-kit-w10869845-510625
+2025-11-12 17:40:50,466:__main__:MPN matched for https://www.applianceandelectronics.com/product/maytag-washer-dryer-stacking-kit-w10869845-510625: given_product_mpn:W10869845, scraped_product_mpn:W10869845
+2025-11-12 17:40:53,579:__main__:is_price_changed set 1 for vendor_product_id (3519938).
+2025-11-12 17:40:54,054:__main__:Record Updated for vendor_product_id (3519938) and source (direct_from_website)
+2025-11-12 17:41:15,274:__main__:Record Updated for product_id (21577).
+2025-11-12 17:41:18,392:__main__:Record Updated for vendor_product_id (3519938).
+2025-11-12 17:41:18,888:__main__:Processing URL: https://www.applianceandelectronics.com/product/whirlpool-lp-gas-conversion-kit-w10606694a-79312
+2025-11-12 17:41:39,061:__main__:https://www.applianceandelectronics.com/product/whirlpool-lp-gas-conversion-kit-w10606694a-79312
+2025-11-12 17:42:02,774:__main__:MPN matched for https://www.applianceandelectronics.com/product/whirlpool-lp-gas-conversion-kit-w10606694a-79312: given_product_mpn:W10606694A, scraped_product_mpn:W10606694A
+2025-11-12 17:42:05,427:__main__:Same vendor price already exists for vendor_product_id 3520104
+2025-11-12 17:42:05,906:__main__:Record Updated for vendor_product_id (3520104) and source (direct_from_website)
+2025-11-12 17:42:26,797:__main__:Record Updated for product_id (21579).
+2025-11-12 17:42:29,621:__main__:Record Updated for vendor_product_id (3520104).
+2025-11-12 17:42:30,107:__main__:Processing URL: https://www.applianceandelectronics.com/product/whirlpool-dryer-durasafe-close-elbow-4396006rw-22829
+2025-11-12 17:42:40,251:__main__:https://www.applianceandelectronics.com/product/whirlpool-dryer-durasafe-close-elbow-4396006rw-22829
+2025-11-12 17:43:08,644:__main__:MPN matched for https://www.applianceandelectronics.com/product/whirlpool-dryer-durasafe-close-elbow-4396006rw-22829: given_product_mpn:4396006RW, scraped_product_mpn:4396006RW
+2025-11-12 17:43:11,861:__main__:is_price_changed set 1 for vendor_product_id (3521145).
+2025-11-12 17:43:12,372:__main__:Record Updated for vendor_product_id (3521145) and source (direct_from_website)
+2025-11-12 17:43:35,013:__main__:Record Updated for product_id (21655).
+2025-11-12 17:43:37,877:__main__:Record Updated for vendor_product_id (3521145).
+2025-11-12 17:43:38,648:__main__:Processing URL: https://www.applianceandelectronics.com/product/whirlpool-4-steel-dryer-venting-clamps-4396008rp-22830
+2025-11-12 17:43:48,862:__main__:https://www.applianceandelectronics.com/product/whirlpool-4-steel-dryer-venting-clamps-4396008rp-22830
+2025-11-12 17:44:16,749:__main__:MPN matched for https://www.applianceandelectronics.com/product/whirlpool-4-steel-dryer-venting-clamps-4396008rp-22830: given_product_mpn:4396008RP, scraped_product_mpn:4396008RP
+2025-11-12 17:44:19,831:__main__:is_price_changed set 1 for vendor_product_id (3521749).
+2025-11-12 17:44:20,302:__main__:Record Updated for vendor_product_id (3521749) and source (direct_from_website)
+2025-11-12 17:44:43,042:__main__:Record Updated for product_id (21729).
+2025-11-12 17:44:46,058:__main__:Record Updated for vendor_product_id (3521749).
+2025-11-12 17:44:46,924:__main__:Processing URL: https://www.applianceandelectronics.com/product/whirlpool-30-stainless-steel-microwave-trim-kit-mk2160as-710384
+2025-11-12 17:45:09,115:__main__:https://www.applianceandelectronics.com/product/whirlpool-30-stainless-steel-microwave-trim-kit-mk2160as-710384
+2025-11-12 17:45:33,802:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/whirlpool-30-stainless-steel-microwave-trim-kit-mk2160as-710384: given_product_mpn:Mk2160as, scraped_product_mpn:MK2160AS
+2025-11-12 17:45:34,044:__main__:Processing URL: https://www.applianceandelectronics.com/product/maytag-4-way-dryer-vent-kit-w10323246-22855
+2025-11-12 17:45:44,237:__main__:https://www.applianceandelectronics.com/product/maytag-4-way-dryer-vent-kit-w10323246-22855
+2025-11-12 17:46:08,648:__main__:MPN matched for https://www.applianceandelectronics.com/product/maytag-4-way-dryer-vent-kit-w10323246-22855: given_product_mpn:W10323246, scraped_product_mpn:W10323246
+2025-11-12 17:46:11,415:__main__:Record Inserted for vendor_product_id (3522335) and source (direct_from_website)
+2025-11-12 17:46:33,973:__main__:Record Updated for product_id (21766).
+2025-11-12 17:46:36,806:__main__:Record Updated for vendor_product_id (3522335).
+2025-11-12 17:46:37,631:__main__:Processing URL: https://www.applianceandelectronics.com/product/maytag-4-way-dryer-vent-kit-w10470674-22857
+2025-11-12 17:46:49,823:__main__:https://www.applianceandelectronics.com/product/maytag-4-way-dryer-vent-kit-w10470674-22857
+2025-11-12 17:47:16,947:__main__:MPN matched for https://www.applianceandelectronics.com/product/maytag-4-way-dryer-vent-kit-w10470674-22857: given_product_mpn:W10470674, scraped_product_mpn:W10470674
+2025-11-12 17:47:20,039:__main__:is_price_changed set 1 for vendor_product_id (3522504).
+2025-11-12 17:47:20,512:__main__:Record Updated for vendor_product_id (3522504) and source (direct_from_website)
+2025-11-12 17:47:41,565:__main__:Record Updated for product_id (21768).
+2025-11-12 17:47:44,560:__main__:Record Updated for vendor_product_id (3522504).
+2025-11-12 17:47:45,144:__main__:Processing URL: https://www.applianceandelectronics.com/product/kelvinator-commercial-70-cu-ft-white-chest-freezer-kcnf073ws-1096262
+2025-11-12 17:47:55,222:__main__:https://www.applianceandelectronics.com/product/kelvinator-commercial-70-cu-ft-white-chest-freezer-kcnf073ws-1096262
+2025-11-12 17:48:22,472:__main__:Processing URL: https://www.applianceandelectronics.com/product/kelvinator-commercial-177-cu-ft-white-chest-freezer-kcnf170wh-1096400
+2025-11-12 17:48:30,143:__main__:https://www.applianceandelectronics.com/product/kelvinator-commercial-177-cu-ft-white-chest-freezer-kcnf170wh-1096400
+2025-11-12 17:48:51,558:__main__:MPN matched for https://www.applianceandelectronics.com/product/kelvinator-commercial-177-cu-ft-white-chest-freezer-kcnf170wh-1096400: given_product_mpn:KCNF170WH, scraped_product_mpn:KCNF170WH
+2025-11-12 17:48:54,357:__main__:Record Inserted for vendor_product_id (3542004) and source (direct_from_website)
+2025-11-12 17:49:18,091:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-47-cu-ft-stainless-steel-outdoor-upright-freezer-spff51os-231187
+2025-11-12 17:49:40,637:__main__:https://www.applianceandelectronics.com/product/summit-47-cu-ft-stainless-steel-outdoor-upright-freezer-spff51os-231187
+2025-11-12 17:50:07,439:__main__:MPN matched for https://www.applianceandelectronics.com/product/summit-47-cu-ft-stainless-steel-outdoor-upright-freezer-spff51os-231187: given_product_mpn:SPFF51OS, scraped_product_mpn:SPFF51OS
+2025-11-12 17:50:10,122:__main__:Same vendor price already exists for vendor_product_id 3565651
+2025-11-12 17:50:10,605:__main__:Record Updated for vendor_product_id (3565651) and source (direct_from_website)
+2025-11-12 17:50:33,751:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-commercial-series-55-cu-ft-stainless-steel-beer-cooler-kegerator-sbc54osbiadank-426654
+2025-11-12 17:50:45,235:__main__:https://www.applianceandelectronics.com/product/summit-commercial-series-55-cu-ft-stainless-steel-beer-cooler-kegerator-sbc54osbiadank-426654
+2025-11-12 17:51:13,531:__main__:MPN matched for https://www.applianceandelectronics.com/product/summit-commercial-series-55-cu-ft-stainless-steel-beer-cooler-kegerator-sbc54osbiadank-426654: given_product_mpn:SBC54OSBIADANK, scraped_product_mpn:SBC54OSBIADANK
+2025-11-12 17:51:16,159:__main__:Same vendor price already exists for vendor_product_id 3565934
+2025-11-12 17:51:16,631:__main__:Record Updated for vendor_product_id (3565934) and source (direct_from_website)
+2025-11-12 17:51:39,608:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-commercial-31-cu-ft-stainless-steel-beverage-center-spr488bosada-664825
+2025-11-12 17:51:50,143:__main__:https://www.applianceandelectronics.com/product/summit-commercial-31-cu-ft-stainless-steel-beverage-center-spr488bosada-664825
+2025-11-12 17:52:13,552:__main__:MPN matched for https://www.applianceandelectronics.com/product/summit-commercial-31-cu-ft-stainless-steel-beverage-center-spr488bosada-664825: given_product_mpn:SPR488BOSADA, scraped_product_mpn:SPR488BOSADA
+2025-11-12 17:52:16,197:__main__:Record Inserted for vendor_product_id (3566160) and source (direct_from_website)
+2025-11-12 17:52:39,414:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-commercial-31-cu-ft-stainless-steel-beverage-center-spr488bos-664717
+2025-11-12 17:53:03,049:__main__:https://www.applianceandelectronics.com/product/summit-commercial-31-cu-ft-stainless-steel-beverage-center-spr488bos-664717
+2025-11-12 17:53:31,019:__main__:MPN matched for https://www.applianceandelectronics.com/product/summit-commercial-31-cu-ft-stainless-steel-beverage-center-spr488bos-664717: given_product_mpn:SPR488BOS, scraped_product_mpn:SPR488BOS
+2025-11-12 17:53:33,854:__main__:Same vendor price already exists for vendor_product_id 3566590
+2025-11-12 17:53:34,352:__main__:Record Updated for vendor_product_id (3566590) and source (direct_from_website)
+2025-11-12 17:53:57,895:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-46-cu-ft-stainless-steel-wine-cooler-alfd24wbv-294275
+2025-11-12 17:54:17,876:__main__:https://www.applianceandelectronics.com/product/summit-46-cu-ft-stainless-steel-wine-cooler-alfd24wbv-294275
+2025-11-12 17:54:43,015:__main__:MPN matched for https://www.applianceandelectronics.com/product/summit-46-cu-ft-stainless-steel-wine-cooler-alfd24wbv-294275: given_product_mpn:ALFD24WBV, scraped_product_mpn:ALFD24WBV
+2025-11-12 17:54:45,689:__main__:Same vendor price already exists for vendor_product_id 3567058
+2025-11-12 17:54:46,171:__main__:Record Updated for vendor_product_id (3567058) and source (direct_from_website)
+2025-11-12 17:55:09,575:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-commercial-series-55-cu-ft-stainless-steel-beer-cooler-kegerator-sbc54osbiadawkdtwin-426655
+2025-11-12 17:55:32,780:__main__:https://www.applianceandelectronics.com/product/summit-commercial-series-55-cu-ft-stainless-steel-beer-cooler-kegerator-sbc54osbiadawkdtwin-426655
+2025-11-12 17:55:56,162:__main__:MPN matched for https://www.applianceandelectronics.com/product/summit-commercial-series-55-cu-ft-stainless-steel-beer-cooler-kegerator-sbc54osbiadawkdtwin-426655: given_product_mpn:SBC54OSBIADAWKDTWIN, scraped_product_mpn:SBC54OSBIADAWKDTWIN
+2025-11-12 17:55:58,814:__main__:Same vendor price already exists for vendor_product_id 3567535
+2025-11-12 17:55:59,294:__main__:Record Updated for vendor_product_id (3567535) and source (direct_from_website)
+2025-11-12 17:56:22,396:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-47-cu-ft-panel-ready-outdoor-upright-freezer-spff51osif-231249
+2025-11-12 17:56:44,947:__main__:https://www.applianceandelectronics.com/product/summit-47-cu-ft-panel-ready-outdoor-upright-freezer-spff51osif-231249
+2025-11-12 17:57:10,635:__main__:MPN matched for https://www.applianceandelectronics.com/product/summit-47-cu-ft-panel-ready-outdoor-upright-freezer-spff51osif-231249: given_product_mpn:SPFF51OSIF, scraped_product_mpn:SPFF51OSIF
+2025-11-12 17:57:13,392:__main__:Same vendor price already exists for vendor_product_id 3568007
+2025-11-12 17:57:13,879:__main__:Record Updated for vendor_product_id (3568007) and source (direct_from_website)
+2025-11-12 17:57:37,583:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-34-cu-ft-stainless-steel-outdoor-upright-freezer-spff51os2d-231193
+2025-11-12 17:57:56,349:__main__:https://www.applianceandelectronics.com/product/summit-34-cu-ft-stainless-steel-outdoor-upright-freezer-spff51os2d-231193
+2025-11-12 17:58:19,840:__main__:MPN matched for https://www.applianceandelectronics.com/product/summit-34-cu-ft-stainless-steel-outdoor-upright-freezer-spff51os2d-231193: given_product_mpn:SPFF51OS2D, scraped_product_mpn:SPFF51OS2D
+2025-11-12 17:58:22,457:__main__:Same vendor price already exists for vendor_product_id 3568389
+2025-11-12 17:58:22,929:__main__:Record Updated for vendor_product_id (3568389) and source (direct_from_website)
+2025-11-12 17:58:45,608:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-31-cu-ft-stainless-steel-under-the-counter-refrigerator-ff195-465214
+2025-11-12 17:58:58,350:__main__:https://www.applianceandelectronics.com/product/summit-31-cu-ft-stainless-steel-under-the-counter-refrigerator-ff195-465214
+2025-11-12 17:59:28,668:__main__:MPN matched for https://www.applianceandelectronics.com/product/summit-31-cu-ft-stainless-steel-under-the-counter-refrigerator-ff195-465214: given_product_mpn:FF195, scraped_product_mpn:FF195
+2025-11-12 17:59:31,363:__main__:Same vendor price already exists for vendor_product_id 3568781
+2025-11-12 17:59:31,840:__main__:Record Updated for vendor_product_id (3568781) and source (direct_from_website)
+2025-11-12 17:59:54,967:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-24-stainless-steel-wine-cooler-swc532blbistcss-467360
+2025-11-12 18:00:14,006:__main__:https://www.applianceandelectronics.com/product/summit-24-stainless-steel-wine-cooler-swc532blbistcss-467360
+2025-11-12 18:00:43,072:__main__:MPN matched for https://www.applianceandelectronics.com/product/summit-24-stainless-steel-wine-cooler-swc532blbistcss-467360: given_product_mpn:SWC532BLBISTCSS, scraped_product_mpn:SWC532BLBISTCSS
+2025-11-12 18:00:45,718:__main__:Same vendor price already exists for vendor_product_id 3570261
+2025-11-12 18:00:46,194:__main__:Record Updated for vendor_product_id (3570261) and source (direct_from_website)
+2025-11-12 18:01:10,047:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-commercial-series-09-cu-ft-jet-black-beverage-center-scr114l-296951
+2025-11-12 18:01:20,807:__main__:https://www.applianceandelectronics.com/product/summit-commercial-series-09-cu-ft-jet-black-beverage-center-scr114l-296951
+2025-11-12 18:01:47,650:__main__:MPN matched for https://www.applianceandelectronics.com/product/summit-commercial-series-09-cu-ft-jet-black-beverage-center-scr114l-296951: given_product_mpn:SCR114L, scraped_product_mpn:SCR114L
+2025-11-12 18:01:50,398:__main__:Same vendor price already exists for vendor_product_id 3596112
+2025-11-12 18:01:50,894:__main__:Record Updated for vendor_product_id (3596112) and source (direct_from_website)
+2025-11-12 18:02:13,841:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-commercial-series-21-cu-ft-stainless-steel-beverage-center-scr314l-297388
+2025-11-12 18:02:35,804:__main__:https://www.applianceandelectronics.com/product/summit-commercial-series-21-cu-ft-stainless-steel-beverage-center-scr314l-297388
+2025-11-12 18:02:57,140:__main__:MPN matched for https://www.applianceandelectronics.com/product/summit-commercial-series-21-cu-ft-stainless-steel-beverage-center-scr314l-297388: given_product_mpn:SCR314L, scraped_product_mpn:SCR314L
+2025-11-12 18:02:59,862:__main__:Same vendor price already exists for vendor_product_id 3596897
+2025-11-12 18:03:00,352:__main__:Record Updated for vendor_product_id (3596897) and source (direct_from_website)
+2025-11-12 18:03:24,421:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-commercial-21-100-lb-black-commercial-icemaker-bim100-487620
+2025-11-12 18:03:35,875:__main__:https://www.applianceandelectronics.com/product/summit-commercial-21-100-lb-black-commercial-icemaker-bim100-487620
+2025-11-12 18:04:03,699:__main__:MPN matched for https://www.applianceandelectronics.com/product/summit-commercial-21-100-lb-black-commercial-icemaker-bim100-487620: given_product_mpn:BIM100, scraped_product_mpn:BIM100
+2025-11-12 18:04:06,449:__main__:Same vendor price already exists for vendor_product_id 3597307
+2025-11-12 18:04:06,945:__main__:Record Updated for vendor_product_id (3597307) and source (direct_from_website)
+2025-11-12 18:04:30,934:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-24-single-zone-wine-cellar-swc1926bcss-836681
+2025-11-12 18:04:39,450:__main__:https://www.applianceandelectronics.com/product/summit-24-single-zone-wine-cellar-swc1926bcss-836681
+2025-11-12 18:05:07,937:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/summit-24-single-zone-wine-cellar-swc1926bcss-836681: given_product_mpn:SWC1926BCSS, scraped_product_mpn:None
+2025-11-12 18:05:08,631:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-18-stainless-steel-wine-cooler-swc182z-231657
+2025-11-12 18:05:20,863:__main__:https://www.applianceandelectronics.com/product/summit-18-stainless-steel-wine-cooler-swc182z-231657
+2025-11-12 18:05:51,066:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/summit-18-stainless-steel-wine-cooler-swc182z-231657: given_product_mpn:SWC182ZADA, scraped_product_mpn:SWC182Z
+2025-11-12 18:05:51,621:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-18-stainless-steel-wine-cooler-swc1840b-231668
+2025-11-12 18:06:03,568:__main__:https://www.applianceandelectronics.com/product/summit-18-stainless-steel-wine-cooler-swc1840b-231668
+2025-11-12 18:06:32,463:__main__:MPN matched for https://www.applianceandelectronics.com/product/summit-18-stainless-steel-wine-cooler-swc1840b-231668: given_product_mpn:SWC1840B, scraped_product_mpn:SWC1840B
+2025-11-12 18:06:35,097:__main__:Same vendor price already exists for vendor_product_id 3598244
+2025-11-12 18:06:35,590:__main__:Record Updated for vendor_product_id (3598244) and source (direct_from_website)
+2025-11-12 18:06:59,305:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-24-stainless-steel-wine-cooler-swc530blbistcss-232954
+2025-11-12 18:07:07,463:__main__:https://www.applianceandelectronics.com/product/summit-24-stainless-steel-wine-cooler-swc530blbistcss-232954
+2025-11-12 18:07:28,405:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/summit-24-stainless-steel-wine-cooler-swc530blbistcss-232954: given_product_mpn:SWC530BLBIST, scraped_product_mpn:SWC530BLBISTCSS
+2025-11-12 18:07:29,109:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-58-cu-ft-stainless-steel-wine-cooler-swbv3067b-231551
+2025-11-12 18:07:39,805:__main__:https://www.applianceandelectronics.com/product/summit-58-cu-ft-stainless-steel-wine-cooler-swbv3067b-231551
+2025-11-12 18:08:02,698:__main__:MPN matched for https://www.applianceandelectronics.com/product/summit-58-cu-ft-stainless-steel-wine-cooler-swbv3067b-231551: given_product_mpn:SWBV3067B, scraped_product_mpn:SWBV3067B
+2025-11-12 18:08:05,403:__main__:Same vendor price already exists for vendor_product_id 3599275
+2025-11-12 18:08:05,890:__main__:Record Updated for vendor_product_id (3599275) and source (direct_from_website)
+2025-11-12 18:08:29,080:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-152-cu-ft-black-wine-cooler-swc24gks-298133
+2025-11-12 18:08:39,612:__main__:https://www.applianceandelectronics.com/product/summit-152-cu-ft-black-wine-cooler-swc24gks-298133
+2025-11-12 18:09:06,232:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/summit-152-cu-ft-black-wine-cooler-swc24gks-298133: given_product_mpn:SWC24GKS, scraped_product_mpn:None
+2025-11-12 18:09:06,729:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-35-stainless-steel-wine-cooler-swc3668-231842
+2025-11-12 18:09:20,491:__main__:https://www.applianceandelectronics.com/product/summit-35-stainless-steel-wine-cooler-swc3668-231842
+2025-11-12 18:09:50,803:__main__:MPN matched for https://www.applianceandelectronics.com/product/summit-35-stainless-steel-wine-cooler-swc3668-231842: given_product_mpn:SWC3668, scraped_product_mpn:SWC3668
+2025-11-12 18:09:53,520:__main__:Same vendor price already exists for vendor_product_id 3600125
+2025-11-12 18:09:54,010:__main__:Record Updated for vendor_product_id (3600125) and source (direct_from_website)
+2025-11-12 18:10:17,238:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-24-panel-ready-wine-cooler-and-freezer-drawers-swcdaf24pnr-980763
+2025-11-12 18:10:41,182:__main__:https://www.applianceandelectronics.com/product/summit-24-panel-ready-wine-cooler-and-freezer-drawers-swcdaf24pnr-980763
+2025-11-12 18:11:08,997:__main__:MPN matched for https://www.applianceandelectronics.com/product/summit-24-panel-ready-wine-cooler-and-freezer-drawers-swcdaf24pnr-980763: given_product_mpn:SWCDAF24PNR, scraped_product_mpn:SWCDAF24PNR
+2025-11-12 18:11:11,657:__main__:Same vendor price already exists for vendor_product_id 3601234
+2025-11-12 18:11:12,151:__main__:Record Updated for vendor_product_id (3601234) and source (direct_from_website)
+2025-11-12 18:11:35,730:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-24-stainless-steel-wine-cooler-and-freezer-drawers-swcdaf24-980695
+2025-11-12 18:11:59,604:__main__:https://www.applianceandelectronics.com/product/summit-24-stainless-steel-wine-cooler-and-freezer-drawers-swcdaf24-980695
+2025-11-12 18:12:23,959:__main__:MPN matched for https://www.applianceandelectronics.com/product/summit-24-stainless-steel-wine-cooler-and-freezer-drawers-swcdaf24-980695: given_product_mpn:SWCDAF24, scraped_product_mpn:SWCDAF24
+2025-11-12 18:12:26,707:__main__:Same vendor price already exists for vendor_product_id 3601622
+2025-11-12 18:12:27,204:__main__:Record Updated for vendor_product_id (3601622) and source (direct_from_website)
+2025-11-12 18:12:50,457:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-24-dual-zone-wine-cellar-swcp2163css-836817
+2025-11-12 18:13:11,005:__main__:https://www.applianceandelectronics.com/product/summit-24-dual-zone-wine-cellar-swcp2163css-836817
+2025-11-12 18:13:36,999:__main__:MPN matched for https://www.applianceandelectronics.com/product/summit-24-dual-zone-wine-cellar-swcp2163css-836817: given_product_mpn:SWCP2163CSS, scraped_product_mpn:SWCP2163CSS
+2025-11-12 18:13:40,355:__main__:Same vendor price already exists for vendor_product_id 3602032
+2025-11-12 18:13:41,001:__main__:Record Updated for vendor_product_id (3602032) and source (direct_from_website)
+2025-11-12 18:14:07,670:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-33-cu-ft-stainless-steel-wine-cooler-swc182zcss-298087
+2025-11-12 18:14:19,933:__main__:https://www.applianceandelectronics.com/product/summit-33-cu-ft-stainless-steel-wine-cooler-swc182zcss-298087
+2025-11-12 18:14:40,947:__main__:MPN mismatch for https://www.applianceandelectronics.com/product/summit-33-cu-ft-stainless-steel-wine-cooler-swc182zcss-298087: given_product_mpn:SWC182ZADA, scraped_product_mpn:SWC182ZCSS
+2025-11-12 18:14:41,427:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-29-cu-ft-stainless-steel-wine-cooler-sbc15wk-798623
+2025-11-12 18:15:17,479:__main__:https://www.applianceandelectronics.com/product/summit-29-cu-ft-stainless-steel-wine-cooler-sbc15wk-798623
+2025-11-12 18:15:44,489:__main__:MPN matched for https://www.applianceandelectronics.com/product/summit-29-cu-ft-stainless-steel-wine-cooler-sbc15wk-798623: given_product_mpn:SBC15WK, scraped_product_mpn:SBC15WK
+2025-11-12 18:15:47,147:__main__:Same vendor price already exists for vendor_product_id 3603984
+2025-11-12 18:15:47,627:__main__:Record Updated for vendor_product_id (3603984) and source (direct_from_website)
+2025-11-12 18:16:11,395:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-50-cu-ft-stainless-steel-beverage-center-al57g-224060
+2025-11-12 18:16:38,093:__main__:https://www.applianceandelectronics.com/product/summit-50-cu-ft-stainless-steel-beverage-center-al57g-224060
+2025-11-12 18:17:05,243:__main__:MPN matched for https://www.applianceandelectronics.com/product/summit-50-cu-ft-stainless-steel-beverage-center-al57g-224060: given_product_mpn:AL57G, scraped_product_mpn:AL57G
+2025-11-12 18:17:07,888:__main__:Same vendor price already exists for vendor_product_id 3605646
+2025-11-12 18:17:08,364:__main__:Record Updated for vendor_product_id (3605646) and source (direct_from_website)
+2025-11-12 18:17:31,003:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-48-cu-ft-stainless-steel-under-the-counter-refrigerator-al54-203728
+2025-11-12 18:17:53,006:__main__:https://www.applianceandelectronics.com/product/summit-48-cu-ft-stainless-steel-under-the-counter-refrigerator-al54-203728
+2025-11-12 18:18:18,290:__main__:MPN matched for https://www.applianceandelectronics.com/product/summit-48-cu-ft-stainless-steel-under-the-counter-refrigerator-al54-203728: given_product_mpn:AL54, scraped_product_mpn:AL54
+2025-11-12 18:18:20,953:__main__:Same vendor price already exists for vendor_product_id 3605923
+2025-11-12 18:18:21,431:__main__:Record Updated for vendor_product_id (3605923) and source (direct_from_website)
+2025-11-12 18:18:45,276:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-25-cu-ft-stainless-steel-upright-freezer-scff1533bss-230006
+2025-11-12 18:18:55,450:__main__:https://www.applianceandelectronics.com/product/summit-25-cu-ft-stainless-steel-upright-freezer-scff1533bss-230006
+2025-11-12 18:19:20,289:__main__:MPN matched for https://www.applianceandelectronics.com/product/summit-25-cu-ft-stainless-steel-upright-freezer-scff1533bss-230006: given_product_mpn:SCFF1533BSS, scraped_product_mpn:SCFF1533BSS
+2025-11-12 18:19:23,007:__main__:Record Inserted for vendor_product_id (3606347) and source (direct_from_website)
+2025-11-12 18:19:46,195:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-commercial-20-cu-ft-stainless-steel-frame-compact-all-freezer-scfu386css-361309
+2025-11-12 18:19:53,595:__main__:https://www.applianceandelectronics.com/product/summit-commercial-20-cu-ft-stainless-steel-frame-compact-all-freezer-scfu386css-361309
+2025-11-12 18:20:18,753:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-23-cu-ft-stainless-steel-beverage-center-albv15-488052
+2025-11-12 18:20:27,086:__main__:https://www.applianceandelectronics.com/product/summit-23-cu-ft-stainless-steel-beverage-center-albv15-488052
+2025-11-12 18:20:53,943:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-22-cu-ft-stainless-steel-wine-cooler-alwc15-224078
+2025-11-12 18:21:01,839:__main__:https://www.applianceandelectronics.com/product/summit-22-cu-ft-stainless-steel-wine-cooler-alwc15-224078
+2025-11-12 18:21:26,504:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-22-cu-ft-stainless-steel-wine-cooler-alwc15css-294452
+2025-11-12 18:21:33,922:__main__:https://www.applianceandelectronics.com/product/summit-22-cu-ft-stainless-steel-wine-cooler-alwc15css-294452
+2025-11-12 18:21:56,216:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-23-cu-ft-stainless-steel-beverage-center-albv15css-488068
+2025-11-12 18:22:04,003:__main__:https://www.applianceandelectronics.com/product/summit-23-cu-ft-stainless-steel-beverage-center-albv15css-488068
+2025-11-12 18:22:32,178:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-commercial-series-22-cu-ft-stainless-steel-beverage-center-scr1225b-296981
+2025-11-12 18:22:39,688:__main__:https://www.applianceandelectronics.com/product/summit-commercial-series-22-cu-ft-stainless-steel-beverage-center-scr1225b-296981
+2025-11-12 18:23:05,973:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-24-stainless-steel-wine-cooler-alwc532-335698
+2025-11-12 18:23:14,120:__main__:https://www.applianceandelectronics.com/product/summit-24-stainless-steel-wine-cooler-alwc532-335698
+2025-11-12 18:23:39,729:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-27-cu-ft-stainless-steel-beverage-center-scr1841b-230644
+2025-11-12 18:23:47,870:__main__:https://www.applianceandelectronics.com/product/summit-27-cu-ft-stainless-steel-beverage-center-scr1841b-230644
+2025-11-12 18:24:17,972:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-commercial-series-55-cu-ft-stainless-steel-beverage-center-scr600bglbitbada-334246
+2025-11-12 18:24:25,994:__main__:https://www.applianceandelectronics.com/product/summit-commercial-series-55-cu-ft-stainless-steel-beverage-center-scr600bglbitbada-334246
+2025-11-12 18:24:56,107:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-commercial-series-50-cu-ft-stainless-steel-beverage-center-scr610blcss-297558
+2025-11-12 18:25:03,815:__main__:https://www.applianceandelectronics.com/product/summit-commercial-series-50-cu-ft-stainless-steel-beverage-center-scr610blcss-297558
+2025-11-12 18:25:27,330:__main__:Processing URL: https://www.applianceandelectronics.com/product/summit-commercial-series-55-cu-ft-stainless-steel-beverage-center-scr600bgltbada-380947
