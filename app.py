@@ -331,8 +331,11 @@ def scraper_unit(vendor_product_id, product_id, given_product_mpn, product_url, 
                 temp["product_mpn"] = None
             
             print(scraped_product_mpn)
-            if given_product_mpn != scraped_product_mpn:
+            if (given_product_mpn).strip().lower() != (scraped_product_mpn).strip().lower():
                 logger.warning(f"MPN mismatch for {url}: given_product_mpn:{given_product_mpn}, scraped_product_mpn:{scraped_product_mpn}")
+                Valid_for_Direct_Website_Scraping = '0'
+                Not_Valid_for_Direct_Website_Scraping_Reason = 'MPN not matched auto.'
+                ProductVendorValidProduct(vendor_product_id,Valid_for_Direct_Website_Scraping,Not_Valid_for_Direct_Website_Scraping_Reason)
                 with open("OldMpnNotMatched.txt", mode="a", encoding="utf-8") as file:
                     file.write(f"{url} | given_product_mpn: {given_product_mpn} | scraped_product_mpn: {scraped_product_mpn}\n")
                 return
@@ -381,10 +384,13 @@ def scraper_unit(vendor_product_id, product_id, given_product_mpn, product_url, 
                 print(temp, product_id)
 
                 if temp['vendorprice_price'] == None:
-                        logger.warning(f"No price found for product ID {product_id}")
-                        with open("priceNotFound.txt", "a") as file:
-                            file.write(f"{vendor_product_id}\n")
-                        return
+                    Valid_for_Direct_Website_Scraping = '0'
+                    Not_Valid_for_Direct_Website_Scraping_Reason = 'Call for best price auto.'
+                    ProductVendorValidProduct(vendor_product_id,Valid_for_Direct_Website_Scraping,Not_Valid_for_Direct_Website_Scraping_Reason)
+                    logger.warning(f"No price found for product ID {product_id}")
+                    with open("priceNotFound.txt", "a") as file:
+                        file.write(f"{vendor_product_id}\n")
+                    return
                 else:
                     vendorTempPricing(vendor_product_id,temp)
                     # vendorZPricing(temp, vendor_id)
@@ -397,6 +403,28 @@ def scraper_unit(vendor_product_id, product_id, given_product_mpn, product_url, 
     finally:
         if driver:
             driver.quit()
+
+def ProductVendorValidProduct(vendor_product_id,Valid_for_Direct_Website_Scraping,Not_Valid_for_Direct_Website_Scraping_Reason):
+    try:
+        conn = mysql.connector.connect(host=HOST, database=DB, user=USER, password=PASS)
+        cursor = conn.cursor()
+
+        query = """
+            UPDATE ProductVendor
+            SET 
+                Valid_for_Direct_Website_Scraping = %s,
+                Not_Valid_for_Direct_Website_Scraping_Reason = %s
+            WHERE 
+                vendor_product_id = %s
+        """
+        values = (Valid_for_Direct_Website_Scraping,Not_Valid_for_Direct_Website_Scraping_Reason,vendor_product_id)
+        cursor.execute(query, values)
+        conn.commit()
+        logger.debug(f"Update Valid_for_Direct_Website_Scraping for vendor_product_id : {vendor_product_id}")
+    except mysql.connector.Error as err:
+        logger.debug("Error:", err)
+    finally:
+        cursor.close()
 
 # Saving data to the MSP
 def insertIntoMsp(row, vendor_id):
@@ -863,43 +891,90 @@ def open_url_human_like(url, window_title_contains="Opera"):
     time.sleep(3)  # Wait for page to load (adjust as needed)
 
 def getUrls(vendor_id, vendor_url):
+    todayDate = datetime.now().strftime("%Y-%m-%d")
+    yesterdayDate = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
+    conn = None
+    cursor = None
     try:
         conn = mysql.connector.connect(host=HOST, database=DB, user=USER, password=PASS)
-        if conn.is_connected():
-            this = conn.cursor()
-            getVendorURLQuery = """
-                SELECT 
-                    ProductVendor.vendor_product_id,
-                    Product.product_id,
-                    Product.product_mpn,
-                    VendorURL.vendor_url 
-                FROM VendorURL
-                INNER JOIN ProductVendor ON ProductVendor.vendor_product_id = VendorURL.vendor_product_id
-                INNER JOIN Product ON Product.product_id = ProductVendor.product_id
-                WHERE ProductVendor.vendor_id = %s AND VendorURL.vendor_url NOT IN ("https://www.applianceandelectronics.com/product/kitchenaid-36-scorched-orange-commercial-style-freestanding-dual-fuel-range-kfdc506jsc-384338","https://www.applianceandelectronics.com/product/dcs-series-7-3-burner-stainless-steel-built-in-natural-gas-grill-bh1-36r-n-82870","https://www.applianceandelectronics.com/product/dcs-series-7-3-burner-stainless-steel-built-in-natural-gas-grill-bh1-36r-n-82870","https://www.applianceandelectronics.com/product/kitchenaid-36-scorched-orange-commercial-style-freestanding-dual-fuel-range-kfdc506jsc-384338","https://www.applianceandelectronics.com/product/kitchenaid-36-scorched-orange-commercial-style-freestanding-dual-fuel-range-kfdc506jsc-384338","https://www.applianceandelectronics.com/product/whirlpool-commercial-33-cu-ft-white-agitator-top-load-washer-cae2795fq-114034")
-            """
-            this.execute(getVendorURLQuery, [vendor_id,])
-            url_list = this.fetchall()
-            if url_list:
-                logger.info(f"Found {len(url_list)} URLs to process")
-                # Process URLs sequentially instead of in parallel for better logging
-                for value in url_list:
-                    vendor_product_id, product_id, product_mpn, url = value[0], value[1], value[2], value[3].strip()
-                    if "html&" in url: 
-                        url = url.split("html&")[0] + "html"
-                    logger.info(f"Processing URL: {url}")
-                    try:
-                        scraper_unit(vendor_product_id, product_id, product_mpn, url, vendor_url, vendor_id)
-                    except Exception as e:
-                        logger.error(f"Error processing URL {url}: {e}")
-                        continue
+        cursor = conn.cursor(dictionary=True)
+
+        cursor.execute("""
+            SELECT DISTINCT product_id 
+            FROM MSPHomePageSectionProducts
+            WHERE run_scraping = '1'
+            AND today_date = %s
+        """, (todayDate,))
+        result = cursor.fetchall()
+
+        cursor.execute("""
+            SELECT DISTINCT product_id
+            FROM MSPProductRecord
+            WHERE ranking_status = '1'
+        """)
+        result1 = cursor.fetchall()
+
+        list1 = [row['product_id'] for row in result1]
+        list2 = [row['product_id'] for row in result]
+
+        combined = list(dict.fromkeys(list1 + list2))
+        if not combined:
+            logger.info("No product IDs found to process.")
+            return
+
+        # TEMP testing with product_id = 94699
+        getVendorURLQuery = """
+            SELECT 
+                ProductVendor.vendor_product_id,
+                Product.product_id,
+                Product.product_mpn,
+                VendorURL.vendor_url 
+            FROM VendorURL
+            INNER JOIN ProductVendor ON ProductVendor.vendor_product_id = VendorURL.vendor_product_id
+            INNER JOIN Product ON Product.product_id = ProductVendor.product_id
+            WHERE ProductVendor.vendor_id = %s 
+            AND ProductVendor.product_id IN (257865)
+            AND VendorURL.vendor_url NOT IN (
+                'https://www.applianceandelectronics.com/product/kitchenaid-36-scorched-orange-commercial-style-freestanding-dual-fuel-range-kfdc506jsc-384338',
+                'https://www.applianceandelectronics.com/product/dcs-series-7-3-burner-stainless-steel-built-in-natural-gas-grill-bh1-36r-n-82870',
+                'https://www.applianceandelectronics.com/product/kitchenaid-36-scorched-orange-commercial-style-freestanding-dual-fuel-range-kfdc506jsc-384338',
+                'https://www.applianceandelectronics.com/product/whirlpool-commercial-33-cu-ft-white-agitator-top-load-washer-cae2795fq-114034'
+            )
+        """
+
+        cursor.execute(getVendorURLQuery, (vendor_id,))
+        url_list = cursor.fetchall()
+
+        if url_list:
+            logger.info(f"Found {len(url_list)} URLs to process")
+
+            for value in url_list:
+                vendor_product_id = value['vendor_product_id']
+                product_id = value['product_id']
+                product_mpn = value['product_mpn']
+                url = value['vendor_url'].strip()
+
+                if "html&" in url:
+                    url = url.split("html&")[0] + "html"
+
+                logger.info(f"Processing URL: {url}")
+
+                try:
+                    scraper_unit(vendor_product_id, product_id, product_mpn, url, vendor_url, vendor_id)
+                except Exception as e:
+                    logger.error(f"Error processing URL {url}: {e}")
+                    continue
+
     except mysql.connector.Error as e:
         logger.warning(f"MySQL ERROR getUrls() >> {e}")
-    finally:
-        if conn.is_connected():
-            conn.close()
-            this.close()
 
+    finally:
+        if cursor:
+            cursor.close()
+        if conn and conn.is_connected():
+            conn.close()
+
+            
 if __name__ == "__main__":  
     start = time.perf_counter() 
     # catUrllist = [
