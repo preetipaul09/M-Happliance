@@ -329,6 +329,9 @@ def scraper_unit(vendor_product_id, product_id, given_product_mpn, product_url, 
             else:
                 scraped_product_mpn = None
                 temp["product_mpn"] = None
+                Valid_for_Direct_Website_Scraping = '0'
+                Not_Valid_for_Direct_Website_Scraping_Reason = 'MPN not found auto.'
+                ProductVendorValidProduct(vendor_product_id,Valid_for_Direct_Website_Scraping,Not_Valid_for_Direct_Website_Scraping_Reason)
             
             print(scraped_product_mpn)
             if (given_product_mpn).strip().lower() != (scraped_product_mpn).strip().lower():
@@ -899,30 +902,30 @@ def getUrls(vendor_id, vendor_url):
         conn = mysql.connector.connect(host=HOST, database=DB, user=USER, password=PASS)
         cursor = conn.cursor(dictionary=True)
 
-        cursor.execute("""
-            SELECT DISTINCT product_id 
-            FROM MSPHomePageSectionProducts
-            WHERE run_scraping = '1'
-            AND today_date = %s
-        """, (todayDate,))
-        result = cursor.fetchall()
+        # cursor.execute("""
+        #     SELECT DISTINCT product_id 
+        #     FROM MSPHomePageSectionProducts
+        #     WHERE run_scraping = '1'
+        #     AND today_date = %s
+        # """, (todayDate,))
+        # result = cursor.fetchall()
 
-        cursor.execute("""
-            SELECT DISTINCT product_id
-            FROM MSPProductRecord
-            WHERE ranking_status = '1'
-        """)
-        result1 = cursor.fetchall()
+        # cursor.execute("""
+        #     SELECT DISTINCT product_id
+        #     FROM MSPProductRecord
+        #     WHERE ranking_status = '1'
+        # """)
+        # result1 = cursor.fetchall()
 
-        list1 = [row['product_id'] for row in result1]
-        list2 = [row['product_id'] for row in result]
+        # list1 = [row['product_id'] for row in result1]
+        # list2 = [row['product_id'] for row in result]
 
-        combined = list(dict.fromkeys(list1 + list2))
-        if not combined:
-            logger.info("No product IDs found to process.")
-            return
+        # combined = list(dict.fromkeys(list1 + list2))
+        # if not combined:
+        #     logger.info("No product IDs found to process.")
+        #     return
 
-        product_ids_str = ",".join(str(pid) for pid in combined)
+        # product_ids_str = ",".join(str(pid) for pid in combined)
 
         getVendorURLQuery = f"""
             SELECT 
@@ -933,8 +936,7 @@ def getUrls(vendor_id, vendor_url):
             FROM VendorURL
             INNER JOIN ProductVendor ON ProductVendor.vendor_product_id = VendorURL.vendor_product_id
             INNER JOIN Product ON Product.product_id = ProductVendor.product_id
-            WHERE ProductVendor.vendor_id = %s 
-            AND ProductVendor.product_id IN ({product_ids_str})
+            WHERE ProductVendor.vendor_id = %s AND ProductVendor.Valid_for_Direct_Website_Scraping = '1'
             AND VendorURL.vendor_url NOT IN (
                 'https://www.applianceandelectronics.com/product/kitchenaid-36-scorched-orange-commercial-style-freestanding-dual-fuel-range-kfdc506jsc-384338',
                 'https://www.applianceandelectronics.com/product/dcs-series-7-3-burner-stainless-steel-built-in-natural-gas-grill-bh1-36r-n-82870',
@@ -998,5 +1000,4 @@ if __name__ == "__main__":
     #     if driver:
     #         driver.quit()
     finish = time.perf_counter()
-
     logger.debug(f'Finished ThreadMain in {round(finish - start, 2)} second(s)')
