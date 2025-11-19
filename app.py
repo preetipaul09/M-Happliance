@@ -922,8 +922,9 @@ def getUrls(vendor_id, vendor_url):
             logger.info("No product IDs found to process.")
             return
 
-        # TEMP testing with product_id = 94699
-        getVendorURLQuery = """
+        product_ids_str = ",".join(str(pid) for pid in combined)
+
+        getVendorURLQuery = f"""
             SELECT 
                 ProductVendor.vendor_product_id,
                 Product.product_id,
@@ -933,7 +934,7 @@ def getUrls(vendor_id, vendor_url):
             INNER JOIN ProductVendor ON ProductVendor.vendor_product_id = VendorURL.vendor_product_id
             INNER JOIN Product ON Product.product_id = ProductVendor.product_id
             WHERE ProductVendor.vendor_id = %s 
-            AND ProductVendor.product_id IN (257865)
+            AND ProductVendor.product_id IN ({product_ids_str})
             AND VendorURL.vendor_url NOT IN (
                 'https://www.applianceandelectronics.com/product/kitchenaid-36-scorched-orange-commercial-style-freestanding-dual-fuel-range-kfdc506jsc-384338',
                 'https://www.applianceandelectronics.com/product/dcs-series-7-3-burner-stainless-steel-built-in-natural-gas-grill-bh1-36r-n-82870',
@@ -997,4 +998,5 @@ if __name__ == "__main__":
     #     if driver:
     #         driver.quit()
     finish = time.perf_counter()
+
     logger.debug(f'Finished ThreadMain in {round(finish - start, 2)} second(s)')
